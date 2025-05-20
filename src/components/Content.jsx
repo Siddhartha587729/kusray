@@ -156,7 +156,7 @@ const Content = ({ refProp }) => {
             >
                 <div className="flex flex-col gap-3">
                     <span className="text-white font-bold text-5xl max-sm:text-3xl">What <span className="text-gradient">We</span> Do</span>
-                    <span className="w-[80%] max-sm:w-full max-sm:text-sm">Kusray is the parent company and it has 2 subsidiary company kusray techlab and kusray edulabs suggest what should be on the homepage of kusray parent company.
+                    <span className="w-[80%] max-sm:w-full max-sm:text-sm">Kusray operates at the intersection of development, strategy, and education, offering a powerful blend of services to help you build smarter and grow faster.From empowering your digital presence to transforming your skills into success, Kusray is your one-stop platform for growth.
                     </span>
                 </div>
                 <div className="absolute top-25 left-0 flex flex-col md:flex-row gap-5 max-sm:static max-sm:flex-col max-sm:mt-4">
@@ -205,15 +205,15 @@ const Content = ({ refProp }) => {
                                 </div>
                             </div>
                             <div className="relative text-slate-800 text-lg font-bold px-6 pt-4">
-                                Technology Education
+                                Professional and Technical Training
                             </div>
                             <div className="relative px-6 pt-4 flex-grow">
                                 <p className="text-gray-700">
-                                    Training programs, workshops, educational resources, career development programs
+                                    Training Programs, Workshops, Educational Resources, Career Development Programs
                                 </p>
                             </div>
                             <div className="relative flex justify-end px-6 py-3 items-center gap-2">
-                                <Link to="/coming-soon" className="flex gap-2 p-2 px-4 text-secondary font-semibold rounded-4xl transform transition-transform duration-300 hover:scale-105">
+                                <Link to="https://edulab.kusray.in" className="flex gap-2 p-2 px-4 text-secondary font-semibold rounded-4xl transform transition-transform duration-300 hover:scale-105">
                                     Visit
                                     <div><ArrowRight height={20} width={20} /></div>
                                 </Link>

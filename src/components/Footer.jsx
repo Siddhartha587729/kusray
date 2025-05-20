@@ -37,10 +37,10 @@ const Footer = () => {
               <Link to="/coming-soon" className="bg-gray-800 p-2 hover:bg-indigo-600/20 transition-all duration-300 hover:scale-110 transform">
                 <Twitter size={18} className="text-indigo-400" />
               </Link>
-              <Link to="/coming-soon" className="bg-gray-800 p-2 hover:bg-indigo-600/20 transition-all duration-300 hover:scale-110 transform">
+              <Link to="https://www.instagram.com/kusray_" className="bg-gray-800 p-2 hover:bg-indigo-600/20 transition-all duration-300 hover:scale-110 transform">
                 <Instagram size={18} className="text-indigo-400" />
               </Link>
-              <Link to="/coming-soon" className="bg-gray-800 p-2 hover:bg-indigo-600/20 transition-all duration-300 hover:scale-110 transform">
+              <Link to="https://www.linkdin.com/company/kusray/" className="bg-gray-800 p-2 hover:bg-indigo-600/20 transition-all duration-300 hover:scale-110 transform">
                 <Linkedin size={18} className="text-indigo-400" />
               </Link>
             </div>

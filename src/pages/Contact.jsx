@@ -230,7 +230,7 @@ const ContactPage = () => {
                       <div className="ml-4">
                         <h4 className="text-lg font-semibold text-gray-900">Our Office Location</h4>
                         <p className="text-gray-600 mt-1">
-                          C 267, Ground Floor, Pandav Nagar, Near Aksh Cardham Metro Station, New Delhi 110092
+                          C 267, Ground Floor, Pandav Nagar, Near Akshshardham Metro Station, New Delhi 110092
                         </p>
                       </div>
                     </div>
