@@ -152,14 +152,14 @@ const Content = ({ refProp }) => {
 
             <div id="services-section" 
                 ref={refProp} 
-                className="relative min-h-[70vh] flex flex-col gap-10 mt-10 bg-slate-800 text-teal-50 p-6 rounded-xl max-sm:gap-6 max-sm:mt-6 max-sm:p-4 max-sm:min-h-[70vh] max-sm:mb-72 pb-52 scroll-mt-24"
+                className="relative h-[40vh] flex flex-col gap-10 mt-10 bg-slate-800 text-teal-50 p-6 rounded-xl max-sm:gap-6 max-sm:mt-6 max-sm:p-4 max-sm:min-h-[40vh] max-sm:mb-72 scroll-mt-24"
             >
                 <div className="flex flex-col gap-3">
                     <span className="text-white font-bold text-5xl max-sm:text-3xl">What <span className="text-gradient">We</span> Do</span>
                     <span className="w-[80%] max-sm:w-full max-sm:text-sm">Kusray operates at the intersection of development, strategy, and education, offering a powerful blend of services to help you build smarter and grow faster. From empowering your digital presence to transforming your skills into success, Kusray is your one-stop platform for growth.
                     </span>
                 </div>
-                <div className="absolute top-25 left-0 flex flex-col md:flex-row gap-5 max-sm:static max-sm:flex-col max-sm:mt-4">
+                <div className="absolute top-30 left-0 flex flex-col md:flex-row gap-5 max-sm:static max-sm:flex-col max-sm:mt-4">
                     <div className="flex-1 max-w-1/3 mx-auto mt-10 max-sm:max-w-full max-sm:mt-4">
                         <div className="relative bg-white shadow-lg rounded-lg overflow-hidden h-full flex flex-col transform transition-transform duration-300 hover:scale-105 hover:bg-gradient">
                             <div
