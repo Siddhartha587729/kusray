@@ -255,7 +255,7 @@ const Content = ({ refProp }) => {
                                 </Link>
                             </div>
                             <div className="flex items-center gap-2 transition-all duration-300 hover:text-secondary">
-                                <Link to="/coming-soon" className="flex items-center gap-2 w-full">
+                                <Link to="https://edulab.kusray.in/" target="_blank" className="flex items-center gap-2 w-full">
                                     <ArrowBigRight size={16} className="text-secondary transition-all duration-300 group-hover:translate-x-1"/>
                                     <span>Kusray Edulab</span>
                                 </Link>

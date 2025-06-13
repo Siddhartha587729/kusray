@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin, Send, Clock, ChevronRight, X } from 'lucide-react';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const ContactPage = () => {
+  useScrollToTop();
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',

@@ -2,8 +2,11 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Building, Users, Award, Target, ChevronRight, Calendar, BookOpen, Zap } from 'lucide-react';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const AboutPage = () => {
+  useScrollToTop();
+  
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />

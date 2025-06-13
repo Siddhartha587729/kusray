@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Linkedin, Twitter, ChevronRight, Users, Coffee, Code, Brain, Heart } from 'lucide-react';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const teamMembers = [
   {
@@ -101,6 +102,8 @@ const cultureItems = [
 ];
 
 const TeamPage = () => {
+  useScrollToTop();
+  
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />

@@ -1,5 +1,5 @@
 import { MoveUpRight, Menu, X } from 'lucide-react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import logo from '../assets/logo.png'; 
 import { useState, useEffect } from 'react';
 
@@ -7,6 +7,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
   
   const [activeLink, setActiveLink] = useState(() => {
     const path = location.pathname;
@@ -44,9 +45,15 @@ const Navbar = () => {
   };
 
   const scrollToServices = () => {
-    const servicesSection = document.getElementById('services-section');
-    if (servicesSection) {
-      servicesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (location.pathname === '/') {
+      const servicesSection = document.getElementById('services-section');
+      if (servicesSection) {
+        servicesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setActiveLink('services');
+        setIsMenuOpen(false);
+      }
+    } else {
+      navigate('/', { state: { scrollToServices: true } });
       setActiveLink('services');
       setIsMenuOpen(false);
     }
