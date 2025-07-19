@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Facebook, Twitter, Instagram, Linkedin, Copyright, ChevronRight } from 'lucide-react';
+import { Twitter, Instagram, Linkedin, Copyright, ChevronRight } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -31,18 +31,15 @@ const Footer = () => {
             <p className="text-gray-400 mt-1 text-sm">Empowering businesses through innovative technology solutions and educational resources.</p>
             
             <div className="mt-4 flex space-x-3">
-              <Link to="/coming-soon" className="bg-gray-800 p-2 hover:bg-indigo-600/20 transition-all duration-300 hover:scale-110 transform">
-                <Facebook size={18} className="text-indigo-400" />
-              </Link>
-              <Link to="/coming-soon" className="bg-gray-800 p-2 hover:bg-indigo-600/20 transition-all duration-300 hover:scale-110 transform">
-                <Twitter size={18} className="text-indigo-400" />
-              </Link>
-              <Link to="https://www.instagram.com/kusray_" className="bg-gray-800 p-2 hover:bg-indigo-600/20 transition-all duration-300 hover:scale-110 transform">
-                <Instagram size={18} className="text-indigo-400" />
-              </Link>
-              <Link to="https://www.linkedin.com/company/kusray/" className="bg-gray-800 p-2 hover:bg-indigo-600/20 transition-all duration-300 hover:scale-110 transform">
+              <a href="https://www.linkedin.com/company/kusray/" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-2 hover:bg-indigo-600/20 transition-all duration-300 hover:scale-110 transform">
                 <Linkedin size={18} className="text-indigo-400" />
-              </Link>
+              </a>
+              <a href="https://www.instagram.com/kusray_/" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-2 hover:bg-indigo-600/20 transition-all duration-300 hover:scale-110 transform">
+                <Instagram size={18} className="text-indigo-400" />
+              </a>
+              <a href="https://x.com/Kusray_" target="_blank" rel="noopener noreferrer" className="bg-gray-800 p-2 hover:bg-indigo-600/20 transition-all duration-300 hover:scale-110 transform">
+                <Twitter size={18} className="text-indigo-400" />
+              </a>
             </div>
           </div>
 

@@ -161,7 +161,7 @@ const Content = ({ refProp }) => {
                 </div>
                 <div className="absolute top-30 left-0 flex flex-col md:flex-row gap-5 max-sm:static max-sm:flex-col max-sm:mt-4">
                     <div className="flex-1 max-w-1/3 mx-auto mt-10 max-sm:max-w-full max-sm:mt-4">
-                        <div className="relative bg-white shadow-lg rounded-lg overflow-hidden h-full flex flex-col transform transition-transform duration-300 hover:scale-105 hover:bg-gradient">
+                        <div className="relative bg-white shadow-lg rounded-lg overflow-hidden h-full flex flex-col transform transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:bg-gradient">
                             <div
                                 className="absolute inset-0 bg-cover bg-center opacity-20"
                                 style={{ backgroundImage: `url(${illustration})`, transform: 'translateX(25px)' }}
@@ -191,7 +191,7 @@ const Content = ({ refProp }) => {
                         </div>
                     </div>
                     <div className="flex-1 max-w-1/3 mx-auto mt-10 max-sm:max-w-full max-sm:mt-4">
-                        <div className="relative bg-white shadow-lg rounded-lg overflow-hidden h-full flex flex-col transform transition-transform duration-300 hover:scale-105 hover:bg-gradient">
+                        <div className="relative bg-white shadow-lg rounded-lg overflow-hidden h-full flex flex-col transform transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:bg-gradient">
                             <div
                                 className="absolute inset-0 bg-cover bg-center opacity-20"
                                 style={{ backgroundImage: `url(${illustration})`, transform: 'translateX(25px)' }}
@@ -213,7 +213,7 @@ const Content = ({ refProp }) => {
                                 </p>
                             </div>
                             <div className="relative flex justify-end px-6 py-3 items-center gap-2">
-                                <Link to="https://edulab.kusray.in" className="flex gap-2 p-2 px-4 text-secondary font-semibold rounded-4xl transform transition-transform duration-300 hover:scale-105">
+                                <Link to="/coming-soon" className="flex gap-2 p-2 px-4 text-secondary font-semibold rounded-4xl transform transition-transform duration-300 hover:scale-105">
                                     Visit
                                     <div><ArrowRight height={20} width={20} /></div>
                                 </Link>
@@ -223,7 +223,7 @@ const Content = ({ refProp }) => {
                 </div>
             </div>
 
-            <div className="mt-60 md:mt-40 max-sm:mt-96">
+            <div className="mt-80 md:mt-60 max-sm:mt-96">
               <div className="flex">
                 <div className="flex flex-col items-center p-1 px-2 rounded-3xl font-light text-white bg-slate-900 shadow-lg">
                   <p>Why choose us</p>

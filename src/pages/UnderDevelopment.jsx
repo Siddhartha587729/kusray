@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Home, Bell, Calendar, Wrench, Check, X } from 'lucide-react';
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const UnderDevelopmentPage = () => {
+  useScrollToTop();
   const [email, setEmail] = useState('');
   const [showNotification, setShowNotification] = useState(false);
   

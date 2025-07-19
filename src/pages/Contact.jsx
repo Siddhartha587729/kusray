@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin, Send, Clock, ChevronRight, X } from 'lucide-react';
+import { MapPin, Phone, Mail, Twitter, Instagram, Linkedin, Send, Clock, ChevronRight, X } from 'lucide-react';
 import useScrollToTop from '../hooks/useScrollToTop';
 
 const ContactPage = () => {
@@ -282,17 +282,14 @@ const ContactPage = () => {
                   <div className="mt-8">
                     <h4 className="text-lg font-semibold mb-4 text-gray-900">Follow Us</h4>
                     <div className="flex space-x-3">
-                      <a href="#" className="bg-indigo-50 p-2.5 rounded-lg hover:bg-indigo-100 transition-colors">
-                        <Facebook size={20} className="text-indigo-600" />
+                      <a href="https://www.linkedin.com/company/kusray/" target="_blank" rel="noopener noreferrer" className="bg-indigo-50 p-2.5 rounded-lg hover:bg-indigo-100 transition-colors">
+                        <Linkedin size={20} className="text-indigo-600" />
                       </a>
-                      <a href="#" className="bg-indigo-50 p-2.5 rounded-lg hover:bg-indigo-100 transition-colors">
-                        <Twitter size={20} className="text-indigo-600" />
-                      </a>
-                      <a href="#" className="bg-indigo-50 p-2.5 rounded-lg hover:bg-indigo-100 transition-colors">
+                      <a href="https://www.instagram.com/kusray_/" target="_blank" rel="noopener noreferrer" className="bg-indigo-50 p-2.5 rounded-lg hover:bg-indigo-100 transition-colors">
                         <Instagram size={20} className="text-indigo-600" />
                       </a>
-                      <a href="#" className="bg-indigo-50 p-2.5 rounded-lg hover:bg-indigo-100 transition-colors">
-                        <Linkedin size={20} className="text-indigo-600" />
+                      <a href="https://x.com/Kusray_" target="_blank" rel="noopener noreferrer" className="bg-indigo-50 p-2.5 rounded-lg hover:bg-indigo-100 transition-colors">
+                        <Twitter size={20} className="text-indigo-600" />
                       </a>
                     </div>
                   </div>
